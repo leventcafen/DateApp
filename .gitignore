@@ -1,0 +1,10 @@
+**/node_modules
+**/e2e
+**/DateApp-API/bin
+**/DateApp-API/obj
+**/.vs
+**/.vscode
+**/$tf
+**/dist/
+**/bin
+**/obj
