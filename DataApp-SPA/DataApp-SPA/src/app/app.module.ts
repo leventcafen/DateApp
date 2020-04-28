@@ -5,7 +5,7 @@ import {FormsModule} from '@angular/forms';
 
 // RECOMMENDED
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -26,6 +26,7 @@ import { AlertifyService } from './_services/alertify.service';
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    BrowserAnimationsModule,
     BsDropdownModule.forRoot()
   ],
   providers: [
