@@ -37,11 +37,11 @@ namespace DateApp_API.Controllers
             .ToArray();
         }
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody]UserForRegisterDto userForRegisterDto)
-        {
+        // [HttpPost("register")]
+        // public async Task<IActionResult> Register([FromBody]UserForRegisterDto userForRegisterDto)
+        // {
            
-            return StatusCode(201);
-        }
+        //     return StatusCode(201);
+        // }
     }
 }
