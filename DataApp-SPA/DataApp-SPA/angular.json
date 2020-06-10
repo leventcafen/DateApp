@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DataApp-SPA"
+    }
+  },
+  "defaultProject": "DataApp-SPA",
+  "cli": {
+    "analytics": "c1a2f527-1fc3-4d6b-ab29-e4f3307c77eb"
+  }
 }
