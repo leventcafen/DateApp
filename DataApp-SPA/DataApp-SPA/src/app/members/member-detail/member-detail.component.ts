@@ -18,8 +18,6 @@ export class MemberDetailComponent implements OnInit {
     this.route.data.subscribe(data=>{
       this.user=data['user'];
     });
-
-    
   }
 
   // getImages(){
